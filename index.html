@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html>
+<html>
+<head>
   <title>Fazio Fab</title>
   <style>
     * {
@@ -44,36 +46,34 @@
     }
 
     .prev {
-  	left: 0;
-	top: 50%;
-	transfrom: translateY(-50%);
-  	background-color: #ff69b4;
-  	color: #fff;
-  	font-size: 24px;
-  	font-weight: bold;
-  	text-shadow: 1px 1px 0 #000;
-  	transition: background-color 0.3s ease;
-	}
-
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ff69b4;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #000;
+      transition: background-color 0.3s ease;
+    }
 
     .next {
-  	right: 0;
-	top: 50%;
-	transfrom: translateY(-50%);
-  	background-color: #ff69b4;
-  	color: #fff;
-  	font-size: 24px;
-  	font-weight: bold;
-  	text-shadow: 1px 1px 0 #000;
-  	transition: background-color 0.3s ease;
-	}
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ff69b4;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #000;
+      transition: background-color 0.3s ease;
+    }
 
     .prev:hover,
     .next:hover {
-  	background-color: #ff87c3;
-  	cursor: pointer;
-	}
-
+      background-color: #ff87c3;
+      cursor: pointer;
+    }
 
     .buy-btn {
       position: absolute;
@@ -90,8 +90,16 @@
       text-shadow: 1px 1px 0 #000;
     }
     .buy-btn:hover {
-  	background-color: #ff87c3;
- 	cursor: pointer;
+      background-color: #ff87c3;
+      cursor: pointer;
+    }
+
+    /* Media query for screens smaller than 600 pixels wide */
+    @media screen and (max-width: 600px) {
+      .buy-btn {
+        bottom: 10%;
+        font-size: 32px;
+      }
     }
 
   </style>
