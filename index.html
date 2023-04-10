@@ -42,16 +42,39 @@
       font-weight: bold;
       text-shadow: 1px 1px 0 #000;
     }
+
     .prev {
-      left: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+  	left: 0;
+	top: 50%;
+	transfrom: translateY(-50%);
+  	background-color: #000;
+  	color: #fff;
+  	font-size: 24px;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 0 #000;
+  	transition: background-color 0.3s ease;
+	}
+
+
     .next {
-      right: 20px;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+  	right: 0;
+	top: 50%;
+	transfrom: translateY(-50%);
+  	background-color: #000;
+  	color: #fff;
+  	font-size: 24px;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 0 #000;
+  	transition: background-color 0.3s ease;
+	}
+
+    .prev:hover,
+    .next:hover {
+  	background-color: #555;
+  	cursor: pointer;
+	}
+
+
     .buy-btn {
       position: absolute;
       bottom: 20px;
